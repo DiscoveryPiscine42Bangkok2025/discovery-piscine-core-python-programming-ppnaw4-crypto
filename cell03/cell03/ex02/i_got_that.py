@@ -1,5 +1,4 @@
-A = str(input("What you gotta say? : "))
-while True:
-    A = input("What you gotta say? : ")
-    if A == "STOP":
-     break
+A = input("What you gotta say? : ")
+while A != "STOP":
+    B = input("I got that! Anything else? : ")
+    A=B
