@@ -1,44 +1,51 @@
+from checkmate import checkmate
 
-print("""Pawn (P):
+
+def show_piece_moves():
+    print("""Pawn (P):
 . . . . . . .
 . . . . . . .
 . . X . X . .
 . . . P . . .
 . . . . . . .
 . . . . . . .
-. . . . . . .""")
+. . . . . . .
+""")
 
-print("""Bishop (B):
+    print("""Bishop (B):
 X . . . . . X
 . X . . . X .
 . . X . X . .
 . . . B . . .
 . . X . X . .
 . X . . . X .
-X . . . . . X""")
+X . . . . . X
+""")
 
-print("""Rook (R):
+    print("""Rook (R):
 . . . X . . .
 . . . X . . .
 . . . X . . .
 X X X R X X X
 . . . X . . .
 . . . X . . .
-. . . X . . .""")
+. . . X . . .
+""")
 
-print("""Queen (Q)
+    print("""Queen (Q):
 X . . X . . X
 . X . X . X .
 . . X X X . .
 X X X Q X X X
 . . X X X . .
 . X . X . X .
-X . . X . . X""")
-
-from checkmate import checkmate
+X . . X . . X
+""")
 
 
 def main():
+    show_piece_moves()
+
     board = """\
 R...
 .K..
