@@ -18,7 +18,7 @@ def check_pawn(board, x, y):
     rows = len(board)
     cols = len(board[0])
 
-    # Pawn attacks diagonally downward toward the King
+
     for dx, dy in [(-1, -1), (-1, 1)]:
         nx = x + dx
         ny = y + dy
@@ -88,7 +88,6 @@ def checkmate(board_string):
 
         size = len(board)
 
-        # Validate square board
         for row in board:
             if len(row) != size:
                 print("Error")
