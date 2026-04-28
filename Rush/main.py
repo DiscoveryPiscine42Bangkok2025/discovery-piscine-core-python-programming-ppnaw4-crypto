@@ -1,8 +1,5 @@
-from checkmate import checkmate
-
-
-def show_piece_moves():
-    print("""Pawn (P):
+("""
+Pawn (P):
 . . . . . . .
 . . . . . . .
 . . X . X . .
@@ -10,9 +7,9 @@ def show_piece_moves():
 . . . . . . .
 . . . . . . .
 . . . . . . .
-""")
 
-    print("""Bishop (B):
+
+Bishop (B):
 X . . . . . X
 . X . . . X .
 . . X . X . .
@@ -20,9 +17,9 @@ X . . . . . X
 . . X . X . .
 . X . . . X .
 X . . . . . X
-""")
 
-    print("""Rook (R):
+
+Rook (R):
 . . . X . . .
 . . . X . . .
 . . . X . . .
@@ -30,9 +27,9 @@ X X X R X X X
 . . . X . . .
 . . . X . . .
 . . . X . . .
-""")
 
-    print("""Queen (Q):
+
+Queen (Q):
 X . . X . . X
 . X . X . X .
 . . X X X . .
@@ -41,6 +38,12 @@ X X X Q X X X
 . X . X . X .
 X . . X . . X
 """)
+
+
+from checkmate import checkmate
+
+
+
 
 
 def main():
